@@ -1,0 +1,43 @@
+/* 
+    Document   : viewFiles
+    Created on : Jan 25, 2016, 8:33:22 PM
+    Author     : Ankush
+    Description:
+        Purpose of the stylesheet follows.
+*/
+table { 
+    width: 90%; 
+    border-collapse: collapse;
+    float: none;
+    margin-left: 30px;
+    /* rounded corner */
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /* box shadow */
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+    background:lightgray; 
+}
+tr:nth-of-type(even) { 
+    background:white; 
+}
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+    text-align:center;
+}
+td { 
+    padding: 7px; 
+    border: 1px solid #ccc; 
+    text-align:center; 
+    font-family: vardena;
+    font-size: large;
+    max-width: 10%;
+    overflow: hidden;
+}

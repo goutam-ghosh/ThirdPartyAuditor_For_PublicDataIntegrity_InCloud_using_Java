@@ -1,0 +1,190 @@
+/* 
+    Document   : aButton
+    Created on : Jan 7, 2014, 4:32:59 PM
+    Author     : akshu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.but {
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+}
+.but > .button {
+    font-size:large;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    min-width: 96px;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 16px;
+    font-family: arial black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px #154c86;
+    background-color: #247edd;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #1c65b2 #18589c #18589c;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+}
+.button:active {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 -1px #154c86;
+    background: #1f71c8;
+    border-color: #113f70 #154c86 #1c65b2;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.4);
+    background-image: -webkit-linear-gradient(top, #1a5da5, #3a8be0);
+    background-image: -moz-linear-gradient(top, #1a5da5, #3a8be0);
+    background-image: -o-linear-gradient(top, #1a5da5, #3a8be0);
+    background-image: linear-gradient(to bottom, #1a5da5, #3a8be0);
+}
+.button:active:before {
+    top: -50%;
+    bottom: -125%;
+    left: -15%;
+    right: -15%;
+    -webkit-box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2);
+}
+.but > input[type=submit] {
+    margin: 0 10px;
+    font-size:large;
+}
+
+input[type=submit] {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    min-width: 96px;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 14px;
+    font-family: arial black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px #154c86;
+    background-color: #247edd;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #1c65b2 #18589c #18589c;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}
+input[type=submit]:before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    bottom: -25%;
+    left: -20%;
+    right: -20%;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-box-shadow: inset 0 0 38px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 38px rgba(255, 255, 255, 0.5);
+}
+input[type=submit]:hover {
+    background-color: #1a74d3;
+}
+input[type=submit]:active {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 -1px #154c86;
+    background: #1f71c8;
+    border-color: #113f70 #154c86 #1c65b2;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.4);
+    background-image: -webkit-linear-gradient(top, #1a5da5, #3a8be0);
+    background-image: -moz-linear-gradient(top, #1a5da5, #3a8be0);
+    background-image: -o-linear-gradient(top, #1a5da5, #3a8be0);
+    background-image: linear-gradient(to bottom, #1a5da5, #3a8be0);
+}
+input[type=submit]:active:before {
+    top: -50%;
+    bottom: -125%;
+    left: -15%;
+    right: -15%;
+    -webkit-box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 96px rgba(0, 0, 0, 0.2);
+}
+.button:disabled{
+    background: red;
+    opacity: 0.3;
+}
+th{
+    background-color:lightgray;
+}
+.ToggleOn{
+    width: 30px;
+    background: green;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px #154c86;
+    background-color: green;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #1c65b2 #18589c #18589c;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+
+}
+.ToggleOn:hover{
+    background: blue;
+}
+.ToggleOff{
+    width: 30px;
+    background: green;
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px #154c86;
+    background-color: red;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #1c65b2 #18589c #18589c;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+
+}
+.ToggleOff:hover{
+    background: blue;
+}

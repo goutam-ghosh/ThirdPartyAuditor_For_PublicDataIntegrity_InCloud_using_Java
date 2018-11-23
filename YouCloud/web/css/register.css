@@ -1,0 +1,168 @@
+/* 
+    Document   : register
+    Created on : Jul 30, 2013, 11:12:30 PM
+    Author     : Ankush
+*/
+.mb_content{
+    display:block;
+}
+.widget {
+    background:whitesmoke;
+    margin:0% 68%;
+    padding: 10px 20px; 
+    width: 350px;
+    position: relative;
+    /* rounded corner */
+    -webkit-border-radius:8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    /* box shadow */
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+h1{
+    color: darkblue;
+}
+.contact_form ul {
+    width:390px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+
+}
+/* === Form Header === */
+.contact_form h2 {
+    margin:0;
+    display: inline;
+}
+.required_notification {
+    color:#d45252; 
+    margin:0px 0 0 0; 
+    display:inline;
+
+}
+/* === Form Elements === */
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+    color: black;
+    display:inline-block;
+    float:left;
+    padding:3px;
+
+}
+.contact_form input[type=password],.contact_form input[type=email] {
+    height:30px; 
+    width:320px; 
+}
+.contact_form input[type=text] {
+    height:30px; 
+    width:320px; 
+}
+
+/* form element visual styles */
+.contact_form input[type=password],.contact_form input[type=email],.contact_form input[type=text] { 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+/* === HTML5 validation styles === */	
+.contact_form input:required, .contact_form textarea:required {
+    background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+    background: #fff url(images/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    background: #fff url(images/invalid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+#wrapper p.button input{
+    width: 21%;
+    height: 45px;
+    cursor: pointer;
+    background: rgb(61, 157, 179);
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    border: 1px solid rgb(28, 108, 122);		
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;	
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+        0px 0px 0px 3px rgb(254, 254, 254),
+        0px 5px 3px 3px rgb(210, 210, 210);
+    -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+        0px 0px 0px 3px rgb(254, 254, 254),
+        0px 5px 3px 3px rgb(210, 210, 210);
+    box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+        0px 0px 0px 3px rgb(254, 254, 254),
+        0px 5px 3px 3px rgb(210, 210, 210);
+
+}
+
+#wrapper p.button input:active,
+#wrapper p.button input:focus{
+    background: rgb(40, 137, 154);
+    top: 4px;
+    border: 1px solid rgb(12, 76, 87);	
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+.pickerImg
+{
+    padding-top: 10px;
+}
+.widgettitle {
+    margin: 0 0 5px;
+    padding: 0;	
+}
+.widget ul {
+    margin: 0;
+    padding: 0;
+
+}
+.check2
+{
+    width: 25%;
+    height: 40px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-left:0px;
+    background: rgb(61, 157, 179);
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    line-height: 2;
+    border: 1px solid rgb(28, 108, 122);		
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;	
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+        0px 0px 0px 3px rgb(254, 254, 254),
+        0px 5px 3px 3px rgb(210, 210, 210);
+    -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+        0px 0px 0px 3px rgb(254, 254, 254),
+        0px 5px 3px 3px rgb(210, 210, 210);
+    box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+        0px 0px 0px 3px rgb(254, 254, 254),
+        0px 5px 3px 3px rgb(210, 210, 210);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}

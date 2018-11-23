@@ -1,0 +1,40 @@
+/* 
+    Document   : fileblocksSending
+    Created on : Jan 23, 2016, 1:53:47 PM
+    Author     : Ankush
+    Description:
+*/
+     table { 
+                width: 90%; 
+                border-collapse: collapse;
+                float: none;
+                margin-left: 30px;
+                /* rounded corner */
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                border-radius: 2px;
+                /* box shadow */
+                -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+                -moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+                box-shadow: 0 1px 3px rgba(0,0,0,.4);
+            }
+            /* Zebra striping */
+            tr:nth-of-type(odd) { 
+                background:lightgray; 
+            }
+            tr:nth-of-type(even) { 
+                background:white; 
+            }
+            th { 
+                background: #333; 
+                color: white; 
+                font-weight: bold; 
+                text-align: center;
+            }
+            td { 
+                padding: 1px; 
+                border: 1px solid #ccc; 
+                text-align:center; 
+                font-family: vardena;
+                font-size: large;
+            }

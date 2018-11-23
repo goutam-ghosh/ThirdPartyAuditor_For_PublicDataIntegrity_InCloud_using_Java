@@ -1,0 +1,16 @@
+/* 
+    Document   : status
+    Created on : Jan 27, 2016, 5:33:27 PM
+    Author     : Ankush
+    Description:
+        Purpose of the stylesheet follows.
+*/
+            .File-Tampered{
+                background-color: red;
+            }
+            .Integrated{
+                background-color: green;
+            }
+            .sent{
+                background-color: orange;
+            }
